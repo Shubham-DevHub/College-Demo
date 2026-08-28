@@ -1,0 +1,7 @@
+{
+  "name": "SSGM Smart Connect",
+  "description": "An AI-powered college ecosystem to manage academics, explore campus facilities, connect with faculty, and get intelligent student assistance.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

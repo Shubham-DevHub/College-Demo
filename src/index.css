@@ -1,0 +1,106 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #003fb1;
+  --color-primary-container: #1a56db;
+  --color-on-primary: #ffffff;
+  --color-on-primary-container: #d4dcff;
+  --color-primary-fixed: #dbe1ff;
+  --color-primary-fixed-dim: #b5c4ff;
+  --color-on-primary-fixed: #00174d;
+  --color-on-primary-fixed-variant: #003dab;
+
+  --color-secondary: #006c4b;
+  --color-secondary-container: #96f6c8;
+  --color-on-secondary: #ffffff;
+  --color-on-secondary-container: #00734f;
+  --color-secondary-fixed: #96f6c8;
+  --color-secondary-fixed-dim: #7ad9ad;
+  --color-on-secondary-fixed: #002114;
+  --color-on-secondary-fixed-variant: #005137;
+
+  --color-tertiary: #5e00cd;
+  --color-tertiary-container: #7730eb;
+  --color-on-tertiary: #ffffff;
+  --color-on-tertiary-container: #e6d7ff;
+  --color-tertiary-fixed: #eaddff;
+  --color-tertiary-fixed-dim: #d2bbff;
+  --color-on-tertiary-fixed: #25005a;
+  --color-on-tertiary-fixed-variant: #5a00c6;
+
+  --color-surface: #f9f9ff;
+  --color-surface-dim: #d2daef;
+  --color-surface-bright: #f9f9ff;
+  --color-surface-container: #e8eeff;
+  --color-surface-container-low: #f1f3ff;
+  --color-surface-container-high: #e0e8fd;
+  --color-surface-container-highest: #dbe2f8;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-variant: #dbe2f8;
+
+  --color-on-surface: #141c2b;
+  --color-on-surface-variant: #434654;
+  --color-inverse-surface: #293040;
+  --color-inverse-on-surface: #ecf0ff;
+
+  --color-outline: #737686;
+  --color-outline-variant: #c3c5d7;
+
+  --color-background: #f9f9ff;
+  --color-on-background: #141c2b;
+
+  --color-error: #ba1a1a;
+  --color-error-container: #ffdad6;
+  --color-on-error: #ffffff;
+  --color-on-error-container: #93000a;
+
+  --font-display: "Manrope", sans-serif;
+  --font-headline-lg: "Manrope", sans-serif;
+  --font-headline-md: "Manrope", sans-serif;
+  --font-headline-sm: "Manrope", sans-serif;
+  --font-title-lg: "Work Sans", sans-serif;
+  --font-body-lg: "Work Sans", sans-serif;
+  --font-body-md: "Work Sans", sans-serif;
+  --font-label-md: "JetBrains Mono", monospace;
+  --font-label-sm: "JetBrains Mono", monospace;
+}
+
+/* Material Symbols font settings */
+.material-symbols-outlined {
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
+.material-symbols-outlined.fill,
+.material-symbols-outlined[data-weight="fill"],
+.material-symbols-fill {
+  font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
+/* Custom Scrollbar */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Safe areas */
+.pb-safe {
+  padding-bottom: max(16px, env(safe-area-inset-bottom, 16px));
+}
+.pt-safe {
+  padding-top: max(16px, env(safe-area-inset-top, 16px));
+}
+
