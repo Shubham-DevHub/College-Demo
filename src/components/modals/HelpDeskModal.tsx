@@ -77,7 +77,7 @@ export const HelpDeskModal: React.FC<HelpDeskModalProps> = ({ isOpen, onClose })
               <span className="material-symbols-outlined text-xl" data-icon="support_agent">support_agent</span>
             </div>
             <div>
-              <h3 className="text-lg font-headline-md font-bold text-on-surface">SSGM Campus Help Desk</h3>
+              <h3 className="text-lg font-headline-md font-bold text-on-surface">Apex Campus Help Desk</h3>
               <p className="text-xs font-body-md text-on-surface-variant">Raise tickets for IT, maintenance, hostel &amp; campus queries</p>
             </div>
           </div>

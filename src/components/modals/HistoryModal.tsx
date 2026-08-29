@@ -20,7 +20,7 @@ export const HistoryModal: React.FC<HistoryModalProps> = ({ isOpen, onClose }) =
               <span className="material-symbols-outlined text-xl" data-icon="history_edu">history_edu</span>
             </div>
             <div>
-              <h3 className="text-lg font-headline-md font-bold text-on-surface">SSGM College Legacy &amp; Heritage</h3>
+              <h3 className="text-lg font-headline-md font-bold text-on-surface">Apex Tech Legacy &amp; Heritage</h3>
               <p className="text-xs font-body-md text-on-surface-variant">Founded on ideals of engineering excellence, character building, and nation development</p>
             </div>
           </div>
@@ -36,7 +36,7 @@ export const HistoryModal: React.FC<HistoryModalProps> = ({ isOpen, onClose }) =
           <div className="rounded-xl overflow-hidden shadow-md border border-outline-variant/40 relative">
             <img
               src="https://lh3.googleusercontent.com/aida-public/AB6AXuC1myISP7jrzuJgUvflcEnsrF95loODWAvJED0oaiqNDdzsTODPwLFuWCjehhv-eFDzb0ntF9ud4TjFVIeQieopDROTMqBXSEIpgmF7iv2XQ3-v71-xx54XE7SkMlUusVAKCu85sYu37bqsM82sDGOXiI1sIeZzWbzAYmJ0jLdUjobYWPIua1XuLGq_zVfVMxHhusB2cBMebpCbWepd6utxht2H57lJiR2KLSKuGQs0I02z6Cc7o1bS"
-              alt="SSGM Founding Faculty Historical Archive"
+              alt="Apex Tech Founding Faculty Historical Archive"
               className="w-full h-56 md:h-72 object-cover"
               referrerPolicy="no-referrer"
             />
@@ -46,9 +46,9 @@ export const HistoryModal: React.FC<HistoryModalProps> = ({ isOpen, onClose }) =
           </div>
 
           <div className="prose prose-sm max-w-none text-on-surface space-y-4">
-            <h4 className="text-lg font-title-lg font-bold text-primary">The Vision Behind SSGM</h4>
+            <h4 className="text-lg font-title-lg font-bold text-primary">The Vision Behind Apex Institute of Technology</h4>
             <p className="text-xs md:text-sm font-body-md text-on-surface-variant leading-relaxed">
-              Established under the revered inspiration of Sant Gajanan Maharaj, the institution began with a noble mission: to bring world-class technical education to aspiring rural and urban minds alike. From its modest initial intake in foundational engineering disciplines, SSGM rapidly scaled into one of the country's most respected autonomous institutions.
+              Established with a noble mission to bring world-class technical education and cutting-edge research to aspiring engineering minds, Apex Institute of Technology began with foundational engineering disciplines and rapidly scaled into one of the country's most respected autonomous institutions.
             </p>
 
             <h4 className="text-lg font-title-lg font-bold text-primary">Key Institutional Milestones</h4>

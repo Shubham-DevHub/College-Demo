@@ -12,7 +12,7 @@ export const AiChatDrawer: React.FC<AiChatDrawerProps> = ({ user, isOpen, onClos
     {
       id: 'msg-init',
       sender: 'assistant',
-      text: `Hello ${user.name.split(' ')[0]}! I am your **SSGM Smart Connect AI Assistant**.\n\nI can help you with your Semester 6 coursework (*DSA*, *DBMS*, *Artificial Intelligence*), exam schedules, faculty office hours, campus locations, and study notes.\n\nWhat would you like to explore today?`,
+      text: `Hello ${user.name.split(' ')[0]}! I am your **Apex Smart Connect AI Assistant**.\n\nI can help you with your Semester 6 coursework (*DSA*, *DBMS*, *Artificial Intelligence*), exam schedules, faculty office hours, campus locations, and study notes.\n\nWhat would you like to explore today?`,
       timestamp: 'Just now',
       suggestedPrompts: [
         'What exams are coming up this month?',
@@ -79,7 +79,7 @@ export const AiChatDrawer: React.FC<AiChatDrawerProps> = ({ user, isOpen, onClos
         sender: 'assistant',
         text: data.reply || "Here's the response for your query.",
         timestamp: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }),
-        sources: data.sources || ['SSGM Academic Portal', 'Knowledge Base'],
+        sources: data.sources || ['Apex Academic Portal', 'Knowledge Base'],
         suggestedPrompts: data.suggestedPrompts || [
           'Explain this further',
           'Give an example problem',
@@ -130,7 +130,7 @@ export const AiChatDrawer: React.FC<AiChatDrawerProps> = ({ user, isOpen, onClos
             </div>
             <div>
               <div className="flex items-center gap-2">
-                <h3 className="font-headline-md text-base font-bold text-on-surface">SSGM AI Assistant</h3>
+                <h3 className="font-headline-md text-base font-bold text-on-surface">Apex AI Assistant</h3>
                 <span className="bg-tertiary-container text-on-tertiary-container text-[10px] font-label-sm font-bold px-2 py-0.5 rounded-full">
                   Gemini 2.5 Flash
                 </span>
@@ -204,7 +204,7 @@ export const AiChatDrawer: React.FC<AiChatDrawerProps> = ({ user, isOpen, onClos
                 progress_activity
               </span>
               <span className="text-xs font-label-md text-on-surface-variant">
-                Consulting SSGM Academic Knowledge Base...
+                Consulting Apex Academic Knowledge Base...
               </span>
             </div>
           )}

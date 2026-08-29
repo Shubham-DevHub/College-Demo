@@ -43,7 +43,7 @@ export const TopAppBar: React.FC<TopAppBarProps> = ({
             school
           </span>
           <h1 className="text-xl md:text-2xl font-display font-bold text-primary tracking-tight">
-            SSGM Smart Connect
+            Apex Smart Connect
           </h1>
         </div>
       </div>
@@ -145,7 +145,7 @@ export const TopAppBar: React.FC<TopAppBarProps> = ({
               </div>
 
               <div className="pt-2 border-t border-outline-variant/40 flex justify-between items-center text-xs">
-                <span className="text-on-surface-variant">SSGM v3.2</span>
+                <span className="text-on-surface-variant">Apex v3.2</span>
                 <button
                   onClick={() => setShowProfileMenu(false)}
                   className="text-primary font-bold hover:underline"

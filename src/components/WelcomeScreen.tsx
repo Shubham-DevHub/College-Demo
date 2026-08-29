@@ -27,7 +27,7 @@ export const WelcomeScreen: React.FC<WelcomeScreenProps> = ({ onSelectRole, onOp
 
           <h1 className="text-4xl md:text-5xl font-display font-extrabold text-primary tracking-tight leading-tight">
             Welcome to<br />
-            <span className="text-on-background">SSGM Smart Connect</span>
+            <span className="text-on-background">Apex Smart Connect</span>
           </h1>
 
           <p className="text-lg font-body-lg text-on-surface-variant max-w-md mx-auto md:mx-0 leading-relaxed">

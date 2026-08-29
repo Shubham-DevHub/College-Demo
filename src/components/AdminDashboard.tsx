@@ -11,7 +11,7 @@ export const AdminDashboard: React.FC<AdminDashboardProps> = () => {
       <div className="mb-8">
         <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-label-sm font-semibold uppercase tracking-wider bg-surface-variant text-on-surface mb-2 shadow-xs">
           <span className="material-symbols-outlined text-sm" data-icon="admin_panel_settings">admin_panel_settings</span>
-          SSGM Central Administration
+          Apex Central Administration
         </div>
         <h1 className="text-2xl md:text-4xl font-headline-lg font-bold text-on-surface tracking-tight">
           Campus Oversight &amp; Analytics

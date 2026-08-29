@@ -58,7 +58,7 @@ export const NavigationDrawer: React.FC<NavigationDrawerProps> = ({
           />
           <div className="flex flex-col min-w-0">
             <span className="text-base font-headline-md font-bold text-primary truncate">
-              {currentRole === 'student' ? 'SSGM Student' : currentRole === 'teacher' ? 'SSGM Faculty' : 'SSGM Admin'}
+              {currentRole === 'student' ? 'Apex Student' : currentRole === 'teacher' ? 'Apex Faculty' : 'Apex Admin'}
             </span>
             <span className="text-xs font-body-md text-on-surface-variant truncate">
               {user.department}

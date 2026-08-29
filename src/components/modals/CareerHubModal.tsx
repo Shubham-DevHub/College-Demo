@@ -47,7 +47,7 @@ export const CareerHubModal: React.FC<CareerHubModalProps> = ({ isOpen, onClose 
             </div>
             <div>
               <h3 className="text-lg font-headline-md font-bold text-on-surface">Career &amp; Training Placement Cell</h3>
-              <p className="text-xs font-body-md text-on-surface-variant">SSGM Official On-Campus Placement Drives &amp; Internships</p>
+              <p className="text-xs font-body-md text-on-surface-variant">Apex Tech Official On-Campus Placement Drives &amp; Internships</p>
             </div>
           </div>
 

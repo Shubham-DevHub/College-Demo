@@ -161,7 +161,7 @@ export const LibraryModal: React.FC<LibraryModalProps> = ({ isOpen, onClose }) =
               </button>
             </div>
             <div className="flex-1 my-4 bg-surface p-4 rounded-xl border border-outline-variant/40 overflow-y-auto text-xs md:text-sm font-mono text-on-surface leading-relaxed">
-              <p className="font-bold text-primary mb-2">// SSGM College of Engineering - Official Academic Material</p>
+              <p className="font-bold text-primary mb-2">// Apex Institute of Technology - Official Academic Material</p>
               <p className="mb-2">Course: {previewItem.course}</p>
               <p className="mb-4">Document Type: {previewItem.type} | Size: {previewItem.size}</p>
               <hr className="my-3 border-outline-variant/30" />

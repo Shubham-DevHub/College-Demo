@@ -23,7 +23,7 @@ export const ProfileModal: React.FC<ProfileModalProps> = ({ user, isOpen, onClos
             </div>
             <div>
               <h3 className="text-lg font-headline-md font-bold text-on-surface">Student Academic Profile</h3>
-              <p className="text-xs font-body-md text-on-surface-variant">SSGM College Official Digital Identity Card</p>
+              <p className="text-xs font-body-md text-on-surface-variant">Apex Institute of Technology Official Digital Identity Card</p>
             </div>
           </div>
 

@@ -34,8 +34,8 @@ async function startServer() {
       if (!apiKey) {
         console.warn('GEMINI_API_KEY is not configured.');
         return res.json({
-          reply: `Hello ${context?.studentName || 'Student'}! I am your **SSGM Smart Connect AI Assistant**.\n\n* **Upcoming Deadlines**: DSA Assignment due Oct 18, DBMS Practical on Oct 15.\n* **Faculty Access**: Prof. A. Sharma is in Room 302 (Mon & Wed 3-5 PM).\n\nTo enable full AI queries, ensure GEMINI_API_KEY is configured in your project settings.`,
-          sources: ['SSGM Offline Cache', 'Academic Handbook 2024-25'],
+          reply: `Hello ${context?.studentName || 'Student'}! I am your **Apex Smart Connect AI Assistant**.\n\n* **Upcoming Deadlines**: DSA Assignment due Oct 18, DBMS Practical on Oct 15.\n* **Faculty Access**: Prof. A. Sharma is in Room 302 (Mon & Wed 3-5 PM).\n\nTo enable full AI queries, ensure GEMINI_API_KEY is configured in your project settings.`,
+          sources: ['Apex Offline Cache', 'Academic Handbook 2024-25'],
           suggestedPrompts: [
             'When is the next DBMS practical exam?',
             'Where is the Central Digital Library?',
@@ -46,13 +46,13 @@ async function startServer() {
 
       const ai = new GoogleGenAI({ apiKey });
 
-      const systemInstruction = `You are the SSGM Smart Connect AI Assistant for Shri Sant Gajanan Maharaj College of Engineering (SSGMCE / SSGM Shegaon).
+      const systemInstruction = `You are the Apex Smart Connect AI Assistant for Apex Institute of Technology (AIT).
 You are an intelligent, empathetic, and academically precise assistant for engineering college students, faculty, and staff.
 
 You can answer ANY user questions, including:
 1. Academic topics across Computer Science, Data Structures & Algorithms, DBMS, Artificial Intelligence, Networks, Web Development, Mathematics, etc.
 2. Explaining concepts with simple analogies, code snippets, step-by-step math, and revision summaries.
-3. SSGM campus guidance: Academic Block A & B, Central Digital Library (8 AM - 11 PM), Computing Center (CC-2), Lab-3B, Amphitheater, Hostels, Cafeteria.
+3. Apex Tech campus guidance: Academic Block A & B, Central Digital Library (8 AM - 11 PM), Computing Center (CC-2), Lab-3B, Amphitheater, Hostels, Cafeteria.
 4. Active semester deadlines: DBMS Practical Exam (Oct 15, 10:00 AM, Lab-3B), DSA Graph Theory Assignment (Due Oct 18, 11:59 PM), AI Heuristic Search Quiz (Oct 22, 2:00 PM).
 5. Faculty information: Prof. A. Sharma (DSA / Room 302, Mon & Wed 3-5 PM), Dr. R. Desai (DBMS / HOD Room 204), Prof. M. Patel (AI / Lab CC-2).
 6. Career, Gate preparation, internships, and general college advice.
@@ -105,12 +105,12 @@ Always format responses using clean Markdown with bold keywords, bullet points, 
       }
 
       if (!reply) {
-        reply = `I am your **SSGM Academic Assistant**. I received your query: "${message}".\n\n* **Upcoming Academic Milestone**: DBMS Practical Exam (Oct 15, 10:00 AM, Lab-3B)\n* **DSA Assignment**: Due Oct 18 before 11:59 PM.\n\nPlease ask any specific course concept or campus query and I will assist you!`;
+        reply = `I am your **Apex Academic Assistant**. I received your query: "${message}".\n\n* **Upcoming Academic Milestone**: DBMS Practical Exam (Oct 15, 10:00 AM, Lab-3B)\n* **DSA Assignment**: Due Oct 18 before 11:59 PM.\n\nPlease ask any specific course concept or campus query and I will assist you!`;
       }
 
       res.json({
         reply,
-        sources: ['SSGM Academic Portal', 'Curriculum Syllabus 2024-25', 'Campus Knowledge Base'],
+        sources: ['Apex Academic Portal', 'Curriculum Syllabus 2024-25', 'Campus Knowledge Base'],
         suggestedPrompts: [
           'Explain Dijkstra algorithm in short',
           'Give 3 key tips for DBMS Practical exam',
@@ -143,7 +143,7 @@ Always format responses using clean Markdown with bold keywords, bullet points, 
   }
 
   app.listen(PORT, '0.0.0.0', () => {
-    console.log(`SSGM Smart Connect Server running on http://0.0.0.0:${PORT}`);
+    console.log(`Apex Smart Connect Server running on http://0.0.0.0:${PORT}`);
   });
 }
 

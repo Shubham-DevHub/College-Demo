@@ -48,7 +48,7 @@ export const CampusOverview: React.FC<CampusOverviewProps> = ({
               Campus Overview
             </div>
             <h2 className="text-3xl md:text-5xl font-display font-extrabold text-on-primary-container tracking-tight">
-              Discover SSGM
+              Discover Apex Tech
             </h2>
             <p className="text-sm md:text-base font-body-lg mt-1.5 max-w-2xl text-on-primary-container/90 leading-relaxed">
               Explore the heritage, facilities, and dynamic departments that define our institution's excellence.
@@ -81,7 +81,7 @@ export const CampusOverview: React.FC<CampusOverviewProps> = ({
                 College History
               </h3>
               <p className="text-sm font-body-md text-on-surface-variant mb-4 line-clamp-3 leading-relaxed">
-                Established with a vision to impart quality technical education, SSGM has grown from a modest beginning to a premier institution recognized for its academic rigor and innovation.
+                Established with a vision to impart quality technical education, Apex Institute of Technology has grown from a modest beginning to a premier institution recognized for its academic rigor and innovation.
               </p>
               <div className="mt-auto flex items-center gap-1.5 text-primary font-label-md text-xs font-bold group-hover:translate-x-1 transition-transform">
                 Read Full Story <span className="material-symbols-outlined text-sm" data-icon="arrow_forward">arrow_forward</span>

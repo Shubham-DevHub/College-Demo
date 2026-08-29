@@ -69,7 +69,7 @@ export const CompetitiveExamsModal: React.FC<CompetitiveExamsModalProps> = ({
               <h4 className="text-sm font-bold text-on-surface mt-1">Abroad Studies Guidance</h4>
               <p className="text-xs text-on-surface-variant mt-1">SOP reviews, university shortlisting with alumni mentors.</p>
               <button
-                onClick={() => alert('Connecting you with SSGM Alumni in USA & Germany.')}
+                onClick={() => alert('Connecting you with Apex Tech Alumni in USA & Germany.')}
                 className="mt-2 text-xs font-bold text-secondary flex items-center gap-1"
               >
                 Connect with Alumni →

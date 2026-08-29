@@ -104,7 +104,7 @@ export const CampusMapModal: React.FC<CampusMapModalProps> = ({ isOpen, onClose 
               <span className="material-symbols-outlined text-xl" data-icon="map">map</span>
             </div>
             <div>
-              <h3 className="text-lg font-headline-md font-bold text-on-surface">SSGM Interactive Campus Navigator</h3>
+              <h3 className="text-lg font-headline-md font-bold text-on-surface">Apex Interactive Campus Navigator</h3>
               <p className="text-xs font-body-md text-on-surface-variant">Explore buildings, labs, lecture halls &amp; amenities</p>
             </div>
           </div>
